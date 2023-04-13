@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scale Balancing</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <title></title>
 </head>
-<body>
+<body id="cover">
+    <header class="header">
+        <h1 class="form-title">Scale Balancing Application</h1>
+    </header>
+
+    <main class="wrap">
     
+        <div class="form-div  item">
+            <div id="item">
+                <form action="" id="form">
+                    <small class="info">Input Your Weights Here</small>
+                    <input type="text" class="input1">
+                </form>
+                <form action="" id="form">
+                    <small class="info">Input Your Weights Balances Here</small>
+                    <input type="text" class="input2">
+                </form>
+            </div>
+    
+            <div>
+                <input type="submit" class="button" value="RUN" onclick="mainFunction();">
+            </div>
+    
+            <ol class="output"></ol>
+         
+        </div>
+    </main>
+    <script src="main.js"></script>
+
 </body>
 </html>
