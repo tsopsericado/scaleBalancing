@@ -1,5 +1,5 @@
 #cover {
-	background-color: blue;
+	background-color: rgb(127, 108, 54);
 }
 
 .header {
@@ -17,7 +17,7 @@
 	align-items: center;
 	justify-content: center;
 	align-content: center;
-	height: 80vh;
+	height: 40vh;
 }
 
 .form-div {
@@ -25,10 +25,15 @@
 	height: 50vh;
 }
 
+#formsItems {
+background-color: yellowgreen;
+padding-bottom: 40px;
+}
+
 #form {
 	border-color: yellowgreen;
 	height: 80%;
-	margin-top: 10px;
+	margin: 15px;
 	display: flex;
 	flex-direction: column;
 	align-content: start;
@@ -39,8 +44,8 @@
 .form-title {
 	color: #FFFFFF;
 	margin: 4rem;
-	width: 30rem;
-	height: 2rem;
+	width: 28rem;
+	height: 4rem;
 	display: flex;
 	justify-content: center;
 	background: rgba(0, 0, 0, 0.5);
