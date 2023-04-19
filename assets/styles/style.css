@@ -11,7 +11,7 @@
 }
 
 .wrap {
-	background-color: rgba(violet, grey, white, alpha);
+	background-color: rgba(#ee82eecb, #808080, #ffffff, alpha);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -26,8 +26,8 @@
 }
 
 #formsItems {
-background-color: yellowgreen;
-padding-bottom: 40px;
+	background-color: yellowgreen;
+	padding-bottom: 40px;
 }
 
 #form {
@@ -42,13 +42,13 @@ padding-bottom: 40px;
 }
 
 .form-title {
-	color: #FFFFFF;
+	color: #FFF;
 	margin: 4rem;
 	width: 28rem;
 	height: 4rem;
 	display: flex;
 	justify-content: center;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 50%);
 }
 
 .input1 {
@@ -90,13 +90,13 @@ padding-bottom: 40px;
 	border: 1px solid #0e4f1f;
 	font-size: 1.2rem;
 	color: #0e4f1f;
-	background: #FFFFFF;
+	background: #FFF;
 	font-family: sans-serif;
 	font-weight: bold;
 }
 
 .info {
 	padding: 3px;
-	color: #FFFFFF;
+	color: #FFF;
 	font-weight: bold;
 }
